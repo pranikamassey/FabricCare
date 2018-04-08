@@ -1,7 +1,11 @@
 # FabricCare
 One stop solution to cease fraud and black marketing of the donated organs using hyperledger fabric
-
-#Screens Of Fabric Care
+* Organ waiting list made transparent to cease jumping and manipulations.
+* Organ availability list made transparent and updated by the hospitals.
+* Total privacy for the donor.
+* Tracking the organ is possible.
+* No black marketing of the organs to the rich.
+# Screens Of Fabric Care
 ## 1. Home page
 ![Alt text](screens/homeScreen.png?raw=true)
 ## 2. Organs Form
