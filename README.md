@@ -11,7 +11,7 @@ One stop solution to cease fraud and black marketing of the donated organs using
 ## 4. Organ Lists
 ![Alt text](screens/organFullList.png?raw=true)
 
-![Alt text](screens/organList.png?raw=true)
+![Alt text](screens/organsList.png?raw=true)
 ## 5. Waiting List
 ![Alt text](screens/waitingList.png?raw=true)
 # Steps to run Fabric Care
