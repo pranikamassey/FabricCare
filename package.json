@@ -1,0 +1,29 @@
+{
+  "name": "airlinev7",
+  "version": "0.0.6",
+  "description": "Incremental creation of the ACME model",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "author": "Rajeev",
+  "email": "raj@acloudfan.com",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "composer-admin": "latest",
+    "composer-client": "latest",
+    "composer-connector-embedded": "latest",
+    "browserfs": "latest",
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mkdirp": "latest",
+    "mocha": "latest"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "passport": "^0.4.0",
+    "passport-github": "^1.1.0"
+  }
+}

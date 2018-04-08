@@ -1,0 +1,104 @@
+namespace org.fabriccare.organ
+
+
+asset Organ identified by organId {
+  o   String            organId
+  o	  String			hName
+  o	  String			hState
+  o   String			hAddress
+  o   String			date
+  o	  String			time
+  o	  String			storingSolution
+  o	  String			temperature
+  o   Integer            type
+  o   Donor             donor
+  o	  Kin				kin
+}
+
+concept Kin{
+	o String	kinName
+    o String	kinAadhar
+    o String	kinPhoneNo
+}
+
+concept Donor {
+  o   String    donorName
+  o	  String	dob
+  o	  String	gender
+  o   String    bloodgroup
+  o   String	donorAadhar
+  o	  String	donorState
+  o   String	donorAddress
+  o   Integer  	donorId  
+}
+
+// Logistics department of ACME creates the flights
+transaction donateOrgan {
+  o	  String	  hName
+  o	  String	  hState
+  o   String	  hAddress
+  o   String	  date
+  o	  String	  time
+  o	  String	  storingSolution
+  o	  String	  temperature
+  o	  String 	  organId
+  o	  String	  dob
+  o	  String	  gender
+  o   Integer     type
+  o   String	  donorAadhar
+  o	  String	  donorState
+  o   String	  donorAddress
+  o   String      donorName
+  o	  String 	  bloodgroup
+  o   Integer     donorId
+  o   String	  kinName
+  o   String	  kinAadhar
+  o   String	  kinPhoneNo
+}
+
+event organDonanted {
+  o   String      organId
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** Data for testing **
+
+{
+  "$class": "org.acme.airline.flight.Flight",
+  "flightNumber": "AE101",
+  "flightId": "AE101-05-27-18",
+  "route": {
+    "$class": "org.acme.airline.flight.Route",
+    "origin": "EWR",
+    "destination": "SEA",
+    "schedule": "2017-10-15T21:44Z"
+  },
+  "aliasFlightNumber": ["BU456"]
+}
+****/
+
+/*
+
+{
+  "$class": "org.acme.airline.flight.CreateFlight",
+  "flightNumber": "AE101",
+  "origin": "EWR",
+  "destination": "HOU",
+  "schedule": "2018-05-04T19:10:54.886Z"
+}
+*/
