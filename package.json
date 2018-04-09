@@ -5,8 +5,8 @@
   "scripts": {
     "test": "mocha --recursive"
   },
-  "author": "Rajeev",
-  "email": "raj@acloudfan.com",
+  "author": "FlipFlips",
+  "email": "flipflop@acloudfan.com",
   "license": "Apache-2.0",
   "devDependencies": {
     "composer-admin": "latest",
