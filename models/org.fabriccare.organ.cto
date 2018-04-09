@@ -75,30 +75,3 @@ event organDonanted {
 
 
 
-
-/** Data for testing **
-
-{
-  "$class": "org.acme.airline.flight.Flight",
-  "flightNumber": "AE101",
-  "flightId": "AE101-05-27-18",
-  "route": {
-    "$class": "org.acme.airline.flight.Route",
-    "origin": "EWR",
-    "destination": "SEA",
-    "schedule": "2017-10-15T21:44Z"
-  },
-  "aliasFlightNumber": ["BU456"]
-}
-****/
-
-/*
-
-{
-  "$class": "org.acme.airline.flight.CreateFlight",
-  "flightNumber": "AE101",
-  "origin": "EWR",
-  "destination": "HOU",
-  "schedule": "2018-05-04T19:10:54.886Z"
-}
-*/
