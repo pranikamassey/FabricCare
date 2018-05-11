@@ -7,17 +7,17 @@ One stop solution to cease fraud and black marketing of the donated organs using
 * No black marketing of the organs to the rich.
 # Screens Of Fabric Care
 ## 1. Home page
-![Alt text](screens/homeScreen.png?raw=true)
+![Alt text](homeScreen.png?raw=true)
 ## 2. Organs Form
-![Alt text](screens/organForm.png?raw=true)
+![Alt text](organForm.png?raw=true)
 ## 3. Donor Form
-![Alt text](screens/donorForm.png?raw=true)
+![Alt text](donorForm.png?raw=true)
 ## 4. Organ Lists
-![Alt text](screens/organFullList.png?raw=true)
+![Alt text](organFullList.png?raw=true)
 
-![Alt text](screens/organsList.png?raw=true)
+![Alt text](organsList.png?raw=true)
 ## 5. Waiting List
-![Alt text](screens/waitingList.png?raw=true)
+![Alt text](waitingList.png?raw=true)
 # Steps to run Fabric Care
 ## 1. Run shell scripts from fabric tools
 ### 1. Run Fabric netwok
